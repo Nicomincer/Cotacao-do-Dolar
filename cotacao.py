@@ -14,6 +14,8 @@ def pegarcotação():
 programa = tkinter.Tk()
 programa.title("Pegar cotação do dolar")
 valordodolar = tkinter.Label(programa, text='', font=('Arial', 50))
+texto1 = tkinter.Label(programa, text="Valor:", font=('Arial', 50))
+texto1.pack()
 valordodolar.pack()
 valordodolar.configure(text=pegarcotação())
 
